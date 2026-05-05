@@ -1,38 +1,4 @@
 # Digital-communication-projects
-## Project 1: Random Variable and Optimal Constellation Design
-Below are the diagrams of the various constellations as well as their respective decision regions.
-
-### a) M = 4
-i) 4-PAM
-<img width="457" height="201" alt="image" src="https://github.com/user-attachments/assets/0a66ebd4-5660-4396-86d0-8441bdef0eea" />
-
-ii) QPSK
-<img width="463" height="352" alt="image" src="https://github.com/user-attachments/assets/5b201d3c-6877-4d31-bca2-c765b44d7ec6" />
-
-iii) Optimal Design
-<img width="463" height="350" alt="image" src="https://github.com/user-attachments/assets/001cc8f1-796e-42b1-b729-e817cd6fb7f5" />
-
-### b) M = 8
-i) 8 PSK
-<img width="488" height="366" alt="image" src="https://github.com/user-attachments/assets/2c1e36b9-09fa-4454-a432-11e0af777e0f" />
-
-ii) Optimal Constellation
-<img width="558" height="416" alt="image" src="https://github.com/user-attachments/assets/238bb35b-90d0-4937-b9ec-7ab6a18b61ae" />
-
-## Constellations Overview
-
-| M | Scheme / Type | Constellation Coordinates | $d_{\text{min}}$ |
-| :--- | :--- | :--- | :--- |
-| **4** | **4PAM** | `[± \sqrt{9/5}, 0], [± \sqrt{1/5}, 0]` | `0.8944` |
-| | **QPSK** | `[± \sqrt{2/2}, ± \sqrt{2/2}]` | `1.4142` |
-| | **Design** | `[± 0.4245, ± 0.8442], [± 0.9401, ± 0.4727]` | `1.4142` |
-| **8** | **8PSK** | `[± 1, 0], [0, ± 1], [± \sqrt{2/2}, ± \sqrt{2/2}]` | `0.7654` |
-| | **Design** | `[-0.7168, 0.3434], [0.0798, -1.2493], [0.8510, -0.4541], [-0.4559, 1.2345], [0.1848, 0.5631], [-0.0744, -0.3280], [-0.9762, -0.5489], [1.1078, 0.4394]` | `0.9281` |
-
-## Usage Note
-
-The constellation matrices can be directly imported into your scripts for evaluation or plotting.
-
 
 
 
