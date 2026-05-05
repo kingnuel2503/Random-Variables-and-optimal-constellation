@@ -19,6 +19,19 @@ i) 8 PSK
 ii) Optimal Constellation
 <img width="558" height="416" alt="image" src="https://github.com/user-attachments/assets/238bb35b-90d0-4937-b9ec-7ab6a18b61ae" />
 
+## Constellations Overview
+
+| M | Scheme / Type | Constellation Coordinates | $d_{\text{min}}$ |
+| :--- | :--- | :--- | :--- |
+| **4** | **4PAM** | `[± \sqrt{9/5}, 0], [± \sqrt{1/5}, 0]` | `0.8944` |
+| | **QPSK** | `[± \sqrt{2/2}, ± \sqrt{2/2}]` | `1.4142` |
+| | **Design** | `[± 0.4245, ± 0.8442], [± 0.9401, ± 0.4727]` | `1.4142` |
+| **8** | **8PSK** | `[± 1, 0], [0, ± 1], [± \sqrt{2/2}, ± \sqrt{2/2}]` | `0.7654` |
+| | **Design** | `[-0.7168, 0.3434], [0.0798, -1.2493], [0.8510, -0.4541], [-0.4559, 1.2345], [0.1848, 0.5631], [-0.0744, -0.3280], [-0.9762, -0.5489], [1.1078, 0.4394]` | `0.9281` |
+
+## Usage Note
+
+The constellation matrices can be directly imported into your scripts for evaluation or plotting.
 
 
 
