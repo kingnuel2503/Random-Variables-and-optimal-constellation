@@ -1,5 +1,4 @@
-# Digital-communication-projects
-## Project 1: Random Variable and Optimal Constellation Design
+# Random Variable and Optimal Constellation Design
 Below are the diagrams of the various constellations as well as their respective decision regions.
 
 ### a) M = 4
